@@ -11,7 +11,7 @@ describe('Traveler', () => {
       name: "Ham Leadbeater",
       travelerType: "relaxer"
     });
-    
+
     let traveler2Data = new Traveler({
       id: 2,
       name: "Rachael Vaughten",
@@ -43,4 +43,24 @@ describe('Traveler', () => {
     expect(traveler2Data.travelerType).to.equal('thrill-seeker')
   });
 
+  it('should get past trips', () => {
+    expect(traveler1Data.).to.equal()
+    expect(traveler2Data.).to.equal()
+  });
+
+  it('should get upcoming trips', () => {
+    expect(traveler1Data.).to.equal()
+    expect(traveler2Data.).to.equal()
+  });
+
+  it('should get pending trips', () => {
+    expect(traveler1Data.).to.equal()
+    expect(traveler2Data.).to.equal()
+  });
+
+  it('should calculate total spent on trips this year', () => {
+    expect(traveler1Data.).to.equal()
+    expect(traveler2Data.).to.equal()
+  });
+  
 });
