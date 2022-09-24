@@ -1,3 +1,22 @@
 body {
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  border: 3px solid gold;
+}
+
+.border {
+  border: 3px solid silver;
+}
+
+span {
+  border: 2px solid magenta;
+}
+
+header {
+
+}
+.box {
+  /* display: flex; */
+}
+.card {
+  /* border: 3px solid silver; */
 }
