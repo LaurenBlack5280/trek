@@ -9,3 +9,8 @@ import './images/turing-logo.png'
 
 
 console.log('This is the JavaScript entry file - your code begins here.');
+/* api calls */
+fetch("http://localhost:3001/api/v1/travelers/")
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(err => console.log(err));
