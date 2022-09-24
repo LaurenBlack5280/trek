@@ -19,48 +19,48 @@ describe('Traveler', () => {
       })
   });
 
-  it('should be a function', () => {
+  it.skip('should be a function', () => {
     expect(Traveler).to.be.a('function');
   });
 
-  it('should be an instance of Traveler', () => {
+  it.skip('should be an instance of Traveler', () => {
     expect(traveler1Data).to.be.an.instanceof(Traveler)
     expect(traveler2Data).to.be.an.instanceof(Traveler)
   });
 
-  it('should have an ID', () => {
+  it.skip('should have an ID', () => {
     expect(traveler1Data.id).to.equal(1)
     expect(traveler2Data.id).to.equal(2)
   });
 
-  it('should have a name', () => {
+  it.skip('should have a name', () => {
     expect(traveler1Data.name).to.equal('Ham Leadbeater')
     expect(traveler2Data.name).to.equal('Rachael Vaughten')
   });
 
-  it('should have a traveler type', () => {
+  it.skip('should have a traveler type', () => {
     expect(traveler1Data.travelerType).to.equal('relaxer')
     expect(traveler2Data.travelerType).to.equal('thrill-seeker')
   });
 
-  it('should get past trips', () => {
+  it.skip('should get past trips', () => {
     expect(traveler1Data.).to.equal()
     expect(traveler2Data.).to.equal()
   });
 
-  it('should get upcoming trips', () => {
+  it.skip('should get upcoming trips', () => {
     expect(traveler1Data.).to.equal()
     expect(traveler2Data.).to.equal()
   });
 
-  it('should get pending trips', () => {
+  it.skip('should get pending trips', () => {
     expect(traveler1Data.).to.equal()
     expect(traveler2Data.).to.equal()
   });
 
-  it('should calculate total spent on trips this year', () => {
+  it.skip('should calculate total spent on trips this year', () => {
     expect(traveler1Data.).to.equal()
     expect(traveler2Data.).to.equal()
   });
-  
+
 });
