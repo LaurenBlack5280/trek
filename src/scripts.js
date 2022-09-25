@@ -18,10 +18,10 @@ let allTrips
 let allDestinations
 
 //selectors
-const pastTrips = document.getElementById('')
-const upcomingTrips = document.getElementById('')
-const pendingTrips = document.getElementById('')
-const totalSpent = = document.getElementById('')
+const selectPastTrips = document.getElementById('past-trips')
+const selectUpcomingTrips = document.getElementById('upcoming-trips')
+const selectPendingTrips = document.getElementById('pending-trips')
+const selectTotalSpent = document.getElementById('total-spent')
 
 //event listeners
 window.addEventListener('load', getAllData())
